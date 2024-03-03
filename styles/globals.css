@@ -235,7 +235,11 @@ text-align: end;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+   button:hover{
+    background-color: gray
+  }
 }
+
 .banner-desc .left h3{
   font-weight: 900;
   font-size: 80px;
@@ -1105,3 +1109,30 @@ margin-top: 160px;
    bottom: 5rem;
   
 }
+
+
+.btn{
+
+
+  padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #dcdcdc;
+
+    font-weight: 500;
+    color: var(--white-color);
+    outline: none;
+    margin: 2rem 0 0 0;
+    font-family: var(--font-base);
+
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    cursor: pointer;
+
+    &:hover {
+      background-color: grey;
+      color: white;
+    }
+  }
+
+  
+
