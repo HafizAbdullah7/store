@@ -21,7 +21,7 @@ const FooterBanner = ({ footerBanner: { discount, largeText1, largeText2, saleTi
           <h4>Contact no: 0334-0596908</h4>
           <h4>email: bunnytota3@gmail.com</h4>
           <Link href="/cashondelivary/complain">
-            <button className='btn' type="button" >Complain Product</button>
+            <button className='btn2' type="button" >Complain Product</button>
           </Link>
         </div>
         

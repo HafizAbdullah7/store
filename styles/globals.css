@@ -250,11 +250,12 @@ text-align: end;
 }
 .footer-banner-image{
   position: absolute;
-   
+      height: 100% ;
+      width: 40%;
   /* top: -35%;
   left: 8%; */
-  top: -25%;
-  left: 25%;
+  top: -3%;
+  left: 33%;
 }
 .banner-desc .right{
   line-height: 1.4;
@@ -1111,7 +1112,7 @@ margin-top: 160px;
 }
 
 
-.btn{
+.btn2{
 
 
   padding: 1rem 2rem;
@@ -1125,14 +1126,16 @@ margin-top: 160px;
     margin: 2rem 0 0 0;
     font-family: var(--font-base);
 
-    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+   
     cursor: pointer;
-
-    &:hover {
-      background-color: grey;
-      color: white;
-    }
+    transform: scale(1, 1);
+    transition: transform 0.5s ease;
+   
+    
   }
-
+  .btn2:hover{
+    transform: scale(1.1,1.1);
+    background-color: antiquewhite;
+  }
   
 

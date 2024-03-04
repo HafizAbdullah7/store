@@ -30,7 +30,7 @@ const cashon = () => {
                 name: item.name,
                 price: item.price,
                 quantity: item.quantity,
-                subtotal: totalPrice,
+                Subtotal: totalPrice,
                 // Add image details here as needed
                 // For example, if your image is stored in item.image:
                 image: item.image.map(image => ({
