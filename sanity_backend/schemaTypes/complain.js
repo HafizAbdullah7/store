@@ -1,6 +1,6 @@
 export default {
-    name:'contact',
-    title:'Contact',
+    name:'complain',
+    title:'Complain',
     type:'document',
     fields:[
         
@@ -14,15 +14,13 @@ export default {
             title:'Email',
             type:'string'
         },
+        
         {
             name: 'productname',
           title: 'ProductName',
           type: 'string',
               },
             
-        
-      
-
         {
             name:'address',
             title:'Address',

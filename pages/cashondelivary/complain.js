@@ -27,8 +27,8 @@ const complain = () => {
         const complain = {
             _type: 'complain',
             name: formData.username,
-            productname: formData.productname,
             email: formData.email,
+            productname: formData.productname,
             address: formData.address,
             phonenumber: formData.phonenumber,
             issue: formData.issue
@@ -60,7 +60,7 @@ const complain = () => {
                         <input className="p-text" type="email" placeholder="Your Email" name="email" value={email} onChange={handleComplianInput} />
                     </div>
                     <div className="app__flex">
-                        <input className="p-text" type="text" placeholder="Name of Product" name="nameofproduct" value={productname} onChange={handleComplianInput} />
+                        <input className="p-text" type="text" placeholder="Name of Product" name="productname" value={productname} onChange={handleComplianInput} />
                     </div>
 
                     <div className="app__flex">
