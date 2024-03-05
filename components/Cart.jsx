@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import Link from 'next/link';
 import { AiOutlineMinus, AiOutlinePlus, AiOutlineLeft, AiOutlineShopping } from 'react-icons/ai';
 import { TiDeleteOutline } from 'react-icons/ti';
+import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import toast from 'react-hot-toast';
 
 import { useStateContext } from '../context/StateContext';
@@ -40,7 +41,7 @@ const Cart = () => {
         type="button"
         className="cart-heading"
         onClick={() => setShowCart(false)}>
-          <AiOutlineLeft />
+          <div className='cart-cross'><HiX/></div>
           <span className="heading">Your Cart</span>
           <span className="cart-num-items">({totalQuantities} items)</span>
         </button>

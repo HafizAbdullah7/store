@@ -282,6 +282,12 @@ text-align: end;
   transition: all 1s ease-in-out;
 
 }
+
+.cart-cross{
+  position: absolute;
+  left: 87%;
+ 
+}
 .cart-container{
   height: 100vh;
   width: 600px;
@@ -688,6 +694,7 @@ margin-top: 160px;
     width: 350px;
     height: 350px;
   }
+  
   .cart-container{
     width: 415px;
   padding: 4px;
