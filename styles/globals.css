@@ -221,6 +221,7 @@ text-align: end;
   width: 100%;
   margin-top: 120px;
 }
+
 .banner-desc{
   display: flex ;
   justify-content: space-between;
@@ -230,7 +231,7 @@ text-align: end;
   padding: 10px 16px;
   background-color: white;
   color: red;
-  border: none;
+  border: 2px solid black;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
@@ -319,9 +320,21 @@ text-align: end;
 
 }
 .footer-container .icons{
-  font-size: 30px;
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  margin: 0.25rem 0;
+  border: 2px solid black;
   display: flex;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  &:hover{
+     background-color: #f02d34;
+     color: white;
+     
+  }
 }
  .cart-heading{
   display: flex;
@@ -1127,12 +1140,10 @@ margin-top: 160px;
 
 
 .btn2{
-
-
   padding: 1rem 2rem;
     border-radius: 10px;
     border: none;
-    background-color: #dcdcdc;
+    background-color: red;
 
     font-weight: 500;
     color: var(--white-color);
@@ -1153,3 +1164,6 @@ margin-top: 160px;
   }
   
 
+ /* apps icons */
+
+ 
