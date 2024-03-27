@@ -101,6 +101,7 @@ width: 100%;
   gap: 15px;
   margin-top: 20px;
   width: 100%;
+  
 }
 .product-card{
  cursor: pointer;
@@ -116,7 +117,15 @@ width: 100%;
   border-radius: 15px;
  background-color: #ebebeb;
   transform: scale(1, 1);
+  height: 250px;
+  width: 250px;
   transition: transform 0.5s ease;
+  
+@media screen and (max-width: 450px ) {
+  height: 160px;
+  width: 160px;
+    
+  }
 }
 
 .product-name{
@@ -350,6 +359,12 @@ text-align: end;
 
 .cart-heading .heading{
   margin-left: 10px;
+  
+  @media screen and (max-width: 450px ) {
+  
+    margin-left: 30px;  
+    }
+  
 }
 .cart-num-items{
   margin-left: 10px;
@@ -371,6 +386,10 @@ text-align: end;
   overflow: auto;
 max-height: 70vh;
 padding: 20px 10px;
+@media screen and (max-width: 450px ) {
+  
+  margin-left: 19px;  
+  }
 }
 .product{
   display: flex;
@@ -769,7 +788,13 @@ margin-top: 160px;
 
 .total h3{
   font-size: 20px;
-}
+  
+  @media screen and (max-width: 450px ) {
+  
+    margin-left: 19px;  
+    }
+  }
+
 .track {
   animation: marquee 10s linear infinite;
   width: 550%;
